@@ -8,6 +8,8 @@
 #include "Appartement.h"
 using namespace std;
 
+// J'ajoute un commentaire pour voir
+
 Appartement::Appartement (int pieces, int sup, string couleur, string sol, array<unique_ptr<Canape>,5> canapes):
 m_nombrePieces(pieces), m_superficie(sup), m_couleurMur(couleur), m_typeSol(sol), m_canapes(move(canapes))
 {
