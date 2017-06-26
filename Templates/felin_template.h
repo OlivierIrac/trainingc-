@@ -9,6 +9,8 @@
 #ifndef FELIN_TEMPLATE_H_
 #define FELIN_TEMPLATE_H_
 
+// ajout commentaire pour Git
+
 #include <iostream>
 
 template <typename T>
